@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>North Star Privacy Policy</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1f1f1f; --muted: #5c5c5c; --rule: #e2e2e2; --accent: #1f5fa8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151515; --fg: #ececec; --muted: #a8a8a8; --rule: #333333; --accent: #7fb0ea; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.25rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1.05rem; margin-top: 1.5rem; }
+  .meta { color: var(--muted); margin-top: 0; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+
+<h1>North Star Privacy Policy</h1>
+<p class="meta">
+  Effective date: 2026-09-27<br>
+  Developer: Tile Seventeen, Japan<br>
+  Contact: <a href="mailto:tileseventeen@gmail.com">tileseventeen@gmail.com</a>
+</p>
+
+<p>North Star is a location-based game: the map around you is your real
+surroundings. This policy explains what data the game uses, where it goes,
+and what stays on your device. It covers the North Star app for Android and
+iOS.</p>
+
+<h2>The short version</h2>
+<ul>
+  <li>The game uses your device's location to draw the map around you and
+    play the game. It does not use your location in the background.</li>
+  <li>Your exact GPS position never leaves your device. To draw the map, the
+    game asks our map server for map tiles around you, which tells the
+    server roughly where you are (to within a few hundred meters).</li>
+  <li>There are no accounts, no sign-in, and no analytics or advertising in
+    the current version.</li>
+  <li>Your game progress, including the "home" location you choose, is
+    saved only on your device.</li>
+  <li>We don't sell your data.</li>
+</ul>
+
+<h2>What we collect and why</h2>
+
+<h3>Location</h3>
+<p><strong>What:</strong> Your device's location, while the game is open and
+you have granted location permission.</p>
+<p><strong>How it's used on your device:</strong> The game uses your precise
+location to place your character on the map and to spawn nearby monsters.
+This happens on your device.</p>
+<p><strong>What leaves your device:</strong> To draw the map, the game
+downloads map tiles from our map server. A tile covers a square area of
+roughly 150–300 meters per side, and the game requests the tiles around
+you. Our server therefore learns your approximate area, but not your exact
+GPS position. With each request our server also receives your device's IP
+address, which is a normal part of any internet connection.</p>
+<p><strong>What our server does with it:</strong> It returns map data for
+those tiles. The map data is OpenStreetMap data that we host ourselves, so
+<strong>no third-party map service ever receives your location, your IP
+address, or anything about you or your device.</strong></p>
+<p><strong>Retention:</strong> Our server does not log requests. It keeps
+recently used map data in memory so it can answer faster, but that cache is
+keyed by map tile only: it contains no information about who requested a
+tile and cannot be used to identify you. Our hosting provider, Fly.io,
+handles network traffic (including IP addresses) to run and protect the
+service, as described in
+<a href="https://fly.io/legal/privacy-policy/">Fly.io's privacy statement</a>.</p>
+
+<h3>Game data (stays on your device)</h3>
+<p>Your level, stats, items, currency, and the home location you set are
+saved only on your device, in the app's local storage. We don't receive
+them. If your device backs up apps (for example Android backup or iCloud
+backup), this data may be included in your own backup, under your device
+account's terms — not sent to us.</p>
+<p>Deleting the app deletes this data. You can also reset your home location
+in the game.</p>
+
+<h3>What we don't collect</h3>
+<p>In the current version, North Star has no accounts. It does not collect
+your name, email, contacts, photos, or any other personal information. It
+does not include analytics, crash reporting, or advertising, and does not
+track you across other apps or websites.</p>
+
+<h2>Sharing</h2>
+<p>We don't sell your data, and we don't share it with third parties for
+their own purposes. Our hosting provider (Fly.io) processes network traffic
+only to run the map service for us, as described above. We
+may disclose information if required by law.</p>
+
+<h2>Planned changes: ads and analytics</h2>
+<p>We plan to add optional rewarded ads and basic analytics in a future
+version. Before that version ships, we will update this policy to name the
+providers and describe what they collect. Where the law requires it (for
+example in the EU/UK), we will ask for your consent before using data for
+personalized ads.</p>
+
+<h2>Your choices and rights</h2>
+<ul>
+  <li><strong>Location permission:</strong> You can deny or revoke location
+    access in your device settings at any time. The game needs location to
+    show the map and play, so it won't work fully without it.</li>
+  <li><strong>Your data:</strong> Because we don't have accounts or keep data
+    linked to you, there is normally nothing on our side to access or
+    delete. If you have a question or request about your data — including
+    under Japan's Act on the Protection of Personal Information, the EU/UK
+    GDPR, or US state privacy laws — contact us at <a href="mailto:tileseventeen@gmail.com">tileseventeen@gmail.com</a> and we
+    will respond.</li>
+</ul>
+
+<h2>Children</h2>
+<p>North Star is intended for players aged 13 and over and is not directed
+at children. We don't knowingly collect personal information from children
+under 13 (or the equivalent minimum age in your country). If you believe a
+child has provided us personal information, contact us and we will delete
+it.</p>
+
+<h2>Security</h2>
+<p>Communication between the app and our map server is encrypted
+(HTTPS).</p>
+
+<h2>Changes to this policy</h2>
+<p>We'll post any changes on this page and update the effective date above.
+For significant changes, such as adding ads or analytics, we'll also notify
+you in the app or the store listing before they take effect.</p>
+
+<h2>Contact</h2>
+<p>Tile Seventeen — <a href="mailto:tileseventeen@gmail.com">tileseventeen@gmail.com</a></p>
+
+</main>
+</body>
+</html>
